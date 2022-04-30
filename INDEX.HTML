@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY GAMES</title>
+        
+    </head>
+    <body>
+        <script type ="text/javascript">
+            let GAMES =
+           [
+                { "GameName" : "Cricket",
+                  "Is a Game" : true,
+                  "Year" : 1937,
+                  "Players" : 11
+                },
+                { "GameName" : "Hockey",
+                  "Is a Game" : true,
+                  "Year" : 1950,
+                  "Players" : 9
+                },
+                { "GameName" : "Baseball",
+                  "Is a Game" : true,
+                  "Year" : 1944,
+                  "Players" : 10
+                }, 
+                { "GameName" : "Basketball",
+                  "Is a Game" : true,
+                  "Year" : 1940,
+                  "Players" : 18
+                }
+            ];
+           
+        // console.log(GAMES) ........back tab needed instead of ;
+        // console.log(JSON.parse(GAMES))
+        // console.log(JSON.parse(GAMES)[0].GameName) 
+
+                   // For loop
+        //  for (let i=0;i<GAMES.length;i++)
+        //  {
+        //      console.log(GAMES[i].GameName)
+        //  }
+                    // For  in loop
+        //  for (let x in GAMES)
+        //  {
+        //      console.log(GAMES[x].GameName);
+        // }
+                  // For  in loop
+        // for (let j in GAMES)
+        // {
+        //     console.log(j.Players);
+        //     console.log(GAMES[j].Players);
+        // }
+                     
+                   // For  of loop
+        // for(let b of GAMES)
+        // {
+        //     console.log(b.Year);
+        // }
+           
+                    //For each loop
+        GAMES.forEach(function(item)
+        {console.log(item.GameName);
+        });
+
+
+        </script>
+       
+
+    </body>
+</html>

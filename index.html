@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSON Example</title>
+    </head>
+    <body>
+        <script type ="text/javascript">
+            let Resume =
+            `{
+                "NAME": "Shubham Uday Joshi",
+                "SchoolName" :"Pratap Vidya Mandir",
+                "SchoolPercentage" : 86.40,
+                "DiplomaCollegeName" : "S.S.Patil",
+                "DiplomaPercentage" : 87.59,
+                "B.ECollegeName" : "Sinhgad College",
+                "B.E.CGPA" : 8.76,
+                "ContactNo" : 7020530266,
+                "EmailAdreess" : "1999shubhamjoshi@gmail.com",
+                "Hobbies" : [ "Cricket","Coding", "Casio", "Reading books"],
+                "CurrentWorkingCompany" :
+                 [{
+                "CompanyName" : "HCL Tech",
+                "IsEngineer" : "true",
+                "SapId" : "123456"
+                 }]
+                 
+            }`
+            console.log(JSON.parse(Resume))
+        </script>
+    </body>
+</html>
